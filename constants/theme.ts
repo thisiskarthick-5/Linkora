@@ -11,20 +11,50 @@ const tintColorDark = '#fff';
 export const Colors = {
   light: {
     text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
+    background: '#FFFFFF',
+    tint: '#7C93FF', // Pastel Blue from design
     icon: '#687076',
     tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    tabIconSelected: '#7C93FF',
+    primary: '#7C93FF',
+    secondary: '#FFB167', // Pastel Orange
+    accent: '#D49CFF', // Pastel Purple
+    card: '#F5F7FF',
+    border: '#E1E4F3',
+    black: '#000000',
+    white: '#FFFFFF',
   },
   dark: {
     text: '#ECEDEE',
     background: '#151718',
-    tint: tintColorDark,
+    tint: '#7C93FF',
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    tabIconSelected: '#7C93FF',
+    primary: '#7C93FF',
+    secondary: '#FFB167',
+    accent: '#D49CFF',
+    card: '#1C1E21',
+    border: '#2A2D32',
+    black: '#000000',
+    white: '#FFFFFF',
   },
+};
+
+export const Spacing = {
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+};
+
+export const BorderRadius = {
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+  full: 9999,
 };
 
 export const Fonts = Platform.select({
